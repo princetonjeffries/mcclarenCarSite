@@ -5,3 +5,14 @@ h1{
     font-size: 350%;
     text-decoration: underline;
 }
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.below{
+    clear: right;
+}
+.below1{
+    clear: left;
+}
