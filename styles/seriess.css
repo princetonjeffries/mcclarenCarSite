@@ -16,3 +16,25 @@ img{
 .below1{
     clear: left;
 }
+p{
+    text-align: center;
+    color: white;
+    font-size: 140%;
+}
+#id1{
+    border: white .3rem groove;
+}
+#id2{
+    display: inline-block;
+}
+li{
+    color: white;
+    font-size:100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+ul{
+    float: right;
+    text-align: center;
+}
