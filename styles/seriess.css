@@ -4,6 +4,7 @@ h1{
     font-family: monospace;
     font-size: 350%;
     text-decoration: underline;
+    width: 100%;
 }
 img{
     margin-left: auto;
@@ -35,6 +36,11 @@ li{
     margin-left: auto;
 }
 ul{
+    position: relative;
     float: right;
     text-align: center;
+    width: 40%;
+}
+h3{
+    color: white;
 }
