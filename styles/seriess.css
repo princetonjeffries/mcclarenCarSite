@@ -1,6 +1,9 @@
 *{
     font-family:quicksand;
 }
+#content{
+  text-align:center;
+}
 h1{
     text-align: center;
     color: white;

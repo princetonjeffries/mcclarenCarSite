@@ -123,3 +123,6 @@ table{
   border: #632A6B .3rem groove;
   top: 3rem;
 }
+#imgs{
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
