@@ -2,7 +2,9 @@ specs{
     display:flex;
 }
 * {box-sizing:border-box}
-
+ul{
+  list-style-type:none;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
