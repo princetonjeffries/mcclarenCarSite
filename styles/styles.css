@@ -95,3 +95,29 @@ specs{
   from {opacity: .4}
   to {opacity: 1}
 }
+a{
+  color: white;
+  font-size: 130%;
+}
+table{
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#id3{
+  font-size: 130%;
+}
+#id4{
+  float: left;
+  clear: left;
+  left: 5rem;
+  width:60%;
+}
+#id5{
+  float: right;
+  right: 1rem;
+  clear: right;
+  border: #632A6B .3rem groove;
+  top: 3rem;
+}

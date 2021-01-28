@@ -4,37 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="../images/logo.png">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/background.css">
     <link rel="stylesheet" href="../styles/seriess.css">
 </head>
 <body>
     <div style="border: #632A6B groove 1rem;">
-        <aside><img style="position: relative; float: left; left: 1rem; bottom: 3rem;" src="../images/logo.png" width="200" height="200" ></aside>
-        <aside><img style="position: relative; float: right; right: 1rem; bottom: 3rem;" src="../images/logo.png" width="200" height="200" ></aside>
-        <h1><b>Mclaren</b></h1>
+        <aside><img style="position: relative; float: left; left: 1rem; bottom: 5rem;" src="../images/logo.png" width="200" height="250" ></aside>
+        <aside><img style="position: relative; float: right; right: 1rem; bottom: 5rem;" src="../images/logo.png" width="200" height="250" ></aside>
+        <!--
+          <h1><b>Mclaren</b></h1>
+        -->
+        <table>
+          <tr>
+            <td><p><a href="">Formula 1</a></p></td>
+            <td><p><a href="../html/ultimate.html">Ultimate Series</a></p></td>
+            <td><p><a href="../html/sseries.html">Super Series</a></p></td>
+          </tr>
+        </table>  
     </div>
+    <br>
+    <br>
     <div class="slideshow-container">
-
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-            <img src="../images/2020_Launch_Car_4_BAT_3Q_v1_Website_Gallery_1600x900.jpg" style="width:100%">
+          <img id="id1" src="../images/f1mc.gif" style="width:100%">
+            <!--<img id="id1" src="../images/2020_Launch_Car_4_BAT_3Q_v1_Website_Gallery_1600x900.jpg" style="width:100%">-->
             <div class="text">Mclaren F1 Series</div>
           </div>
     
         <div class="mySlides fade">
-          <a href="ultimate.html"><img src="../images/senna.gif" style="width:100%"></a>
+          <a href="ultimate.html"><img id="id1" src="../images/senna.gif" style="width:100%"></a>
           <div class="text">Mclaren Ultimate Series</div>
         </div>
       
         <div class="mySlides fade">
-          <a href="sseries.html"><img src="../images/drive.gif" style="width:100%"></a>
+          <a href="sseries.html"><img id="id1" src="../images/drive.gif" style="width:100%"></a>
           <div class="text">Mclaren Super Series</div>
         </div>
          <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+    <div id="id4">
+      <h1 id="id3">F1 Series</h1>
+    </div>
+    <div id="id4">
+      <h1 id="id3">Ultimate Series</h1>
+    </div>
+    <div id="id4">
+      <h1 id="id3">Super Series</h1>
+      <p >The Mclaren Super Series is one of the most electrifying sports care series that we have avaliable. It contains of three differnet types of vehichles such as the 
+      Mclaren 765LT, Mclaren 720s, and the Mclaren 720s Spider. The Mclaren 765LT is the fastest out of the three when you compare 0-60 time with a time of 2.7 seconds.
+      The Super series has much to offer to your likings! </p>
+    </div>
+    <img id="id5" src="../images/lt.webp" width="500" height="200">
     <script src="../script/script.js"></script>
 </body>
 </html>
