@@ -5,6 +5,10 @@ specs {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -109,3 +113,32 @@ specs {
   }
 }
 
+a {
+  color: white;
+  font-size: 130%;
+}
+table {
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#id3 {
+  font-size: 130%;
+}
+#id4 {
+  float: left;
+  clear: left;
+  left: 5rem;
+  width: 60%;
+}
+#id5 {
+  float: right;
+  right: 1rem;
+  clear: right;
+  border: #632a6b 0.3rem groove;
+  top: 3rem;
+}
+#imgs {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
