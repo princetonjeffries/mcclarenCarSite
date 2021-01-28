@@ -9,22 +9,62 @@
     <title>Mclaren Super Series</title>
 </head>
 <body>
+    <!--
+       <div>
+        <img id="id1" src="../images/drive.gif" height="700" width="1200">
+        Slideshow of like 6 colorways of the cars
+    </div> 
+-->
     <div style="border: #632A6B groove 1rem;">
         <aside><img style="position: relative; float: left; left: 1rem; bottom: 3rem;" src="../images/logo.png" width="200" height="200" ></aside>
         <aside><img style="position: relative; float: right; right: 1rem; bottom: 3rem;" src="../images/logo.png" width="200" height="200" ></aside>
         <h1><b>Mclaren Super Series</b></h1>
     </div>
-    <div>
-        <img src="../images/drive.gif" height="700" width="1200">
-        <!--Slideshow of like 6 colorways of the cars-->
+    <br>
+    <br>
+    
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img id="id1" src="../images/drive.gif" height="600" width="1200" style="width:100%">
+      <div class="text">Mclaren 720s</div>
     </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img id="id1" src="../images/765.gif" height="600" width="1200" style="width:100%">
+      <div class="text">Mclaren 765LT</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img id="id1" src="../images/spider.gif" height="600" width="1200" style="width:100%">
+      <div class="text">Mclaren 720s Spider</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>-->
     <br>
     <br>
     <div >
         <!-- IMG floating to left--> 
         <h1 style="text-align: center;">Mclaren 720s Spider</h1>
-        <aside><img id="id1" style="position: relative; float: left; left: 4rem;" src="../images/720sspider.jpg" width="600" height="300"></aside>
-        <p style="float: right; width: 40%;">On the left is the 2019 Mclaren 720s Spider sports car in the color Black with a hint of Royal Blue and it has been in production since 2017.</p>
+        <aside><img id="id1" style="position: relative; float: left; left: 4rem;" src="../images/720sspider.jpg" width="600" height="350"></aside>
+        <p style="float: right; width: 45%;">On the left is the 2019 Mclaren 720s Spider sports car in the color Black with a hint of Royal Blue and it has been in production since 2017.</p>
         <ul>
             <li><h3>Specs</h3></li>
             <li>Price's range from 315,000$ - 415,000$</li>
@@ -42,8 +82,8 @@
     <div id="id2">
         <!-- IMG floating to right-->
         <h1 class="below1" text-align="center">Mclaren 720s</h1>
-        <aside><img id="id1" class="below" style="position: relative; float: right; right: 4rem;" src="../images/720s.jpg" width="600" height="300"></aside>
-        <p class="below1" style="float: left; width: 40%;">The 2020 Mclaren 720s Sports Car is a very exciting product which has been in production for around 4 years now.
+        <aside><img id="id1" class="below" style="position: relative; float: right; right: 4rem;" src="../images/720s.jpg" width="600" height="350"></aside>
+        <p class="below1" style="float: left; width: 45%;">The 2020 Mclaren 720s Sports Car is a very exciting product which has been in production for around 4 years now.
         </p>
         <ul style="float: left;">
             <li><h3>Specs</h3></li>
@@ -60,7 +100,7 @@
     <div style="width: 100%;" id="id2">
         <!-- IMG floating to left-->
         <h1 class="below" style="text-align: center;">Mclaren 765LT</h1>
-        <aside><img id="id1" class="below1" style="position: relative; float: left; left: 2rem;" src="../images/green765.jfif" width="600" height="300"></aside>
+        <aside><img id="id1" class="below1" style="position: relative; float: left; left: 4rem;" src="../images/green765.jfif" width="600" height="350"></aside>
         <p class="below" style="float: right;width: 45%;">The neon green Mclaren 765LT on the left is a sports car that is brand new in 2021 and is excitng a lot of people! </p>
         <ul>
             <li><h3>Specs</h3></li>
@@ -73,5 +113,8 @@
             <li>The milage is 15mpg city and 22mpg highway</li>
         </ul>
     </div>
+
+<script src="../sseries.js"></script>
+
 </body>
 </html>
