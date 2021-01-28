@@ -116,6 +116,9 @@ table{
   left: 5rem;
   width:60%;
 }
+#id2{
+  margin-bottom:2rem;
+}
 #id5{
   float: right;
   right: 1rem;
@@ -125,4 +128,7 @@ table{
 }
 #imgs{
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#speedtail{
+  float:right;
 }
