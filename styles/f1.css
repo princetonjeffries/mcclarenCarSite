@@ -1,0 +1,7 @@
+.slideshow-container {
+  box-shadow: 12px 12px 2px 1px;
+}
+.prev,
+.next {
+  color: black;
+}
