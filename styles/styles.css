@@ -115,7 +115,7 @@ ul {
 
 a {
   color: white;
-  font-size: 130%;
+  font-size: 200%;
 }
 table {
   width: 40%;
@@ -136,7 +136,7 @@ table {
   float: right;
   right: 1rem;
   clear: right;
-  border: #632a6b 0.3rem groove;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
   top: 3rem;
 }
 #imgs {
@@ -144,4 +144,16 @@ table {
 }
 #speedtail {
   float: right;
+}
+#fontadjust{
+  font-size: 1.8rem;
+}
+/*
+@media (max-width: 1540px) {
+  table {
+    font-size: 10rem;
+  }
+  #fontadjust{
+    font-size: 0.5rem;
+  }
 }
