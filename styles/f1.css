@@ -1,7 +1,16 @@
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+  font-family: quicksand;
+}
 .slideshow-container {
-  box-shadow: 12px 12px 2px 1px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .prev,
 .next {
   color: black;
+}
+p {
+  color: white;
+  font-size: 140%;
+  font-family: quicksand;
 }
