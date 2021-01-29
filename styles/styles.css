@@ -147,13 +147,5 @@ table {
 }
 #fontadjust{
   font-size: 1.8rem;
-}
-/*
-@media (max-width: 1540px) {
-  table {
-    font-size: 10rem;
-  }
-  #fontadjust{
-    font-size: 0.5rem;
-  }
+  font-family:mclaren;
 }
