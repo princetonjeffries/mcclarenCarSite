@@ -9,14 +9,25 @@
 .slideshow-container {
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.half {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  font-size: 0.8em;
+}
+.half-left {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 40%;
+}
+.half-right {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 40%;
+}
 .prev,
 .next {
   color: black;
-}
-p {
-  color: white;
-  font-size: 140%;
-  font-family: quicksand;
 }
 #title {
   font-family: mclaren;
@@ -24,6 +35,11 @@ p {
   text-decoration: underline;
   text-align: center;
   font-size: 350%;
+}
+p {
+  color: white;
+  font-size: 140%;
+  font-family: quicksand;
 }
 table {
   width: 80%;
