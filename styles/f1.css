@@ -1,0 +1,52 @@
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+  font-family: quicksand;
+}
+@font-face {
+  src: url(../fonts/mclaren.otf);
+  font-family: mclaren;
+}
+.slideshow-container {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.half {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  font-size: 0.8em;
+}
+.half-left {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 40%;
+}
+.half-right {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 40%;
+}
+.prev,
+.next {
+  color: black;
+}
+#title {
+  font-family: mclaren;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 350%;
+}
+p {
+  color: white;
+  font-size: 140%;
+  font-family: quicksand;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border: 1em groove black;
+}
+tr {
+  border-collapse: collapse;
+  border: 0.2em solid black;
+}
